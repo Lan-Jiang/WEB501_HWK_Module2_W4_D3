@@ -1,0 +1,168 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+#leftside {
+    float:left;
+    width: 30%;
+    min-height: 1800px;
+    background-color:rgb(77, 192, 154);
+}
+#rightside {
+    float:left;
+    width: 70%;
+    min-height: 1800px;
+    background-color:rgb(238, 226, 192);
+    position:relative;
+}
+#container {
+    background-color:rgba(255, 255, 255, 0.85);
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    min-width: 1100px;
+    min-height: 1650px;
+    border-radius: 0.7em;
+}
+header {
+    height: 50px;
+    /* background-color:rgba(231, 229, 229, 0.5); */
+    font-size: 1.75em;
+    padding:0.5em;
+}
+header span {
+    font-family: 'Sacramento', cursive;
+    font-size: 1.75em;
+    color:rgb(216, 150, 7);
+}
+main {
+    position: relative;
+}
+main h2 {
+    position: absolute;
+    left: 20%;
+    top: 30px;
+    margin: 1.5em 0 2em 2em;
+    color:rgb(60, 190, 160);
+    text-transform: uppercase;
+}
+main #photos img {
+    margin: 2.25em 0em 0em 1em;
+    border: 0.85em solid rgb(255, 255, 255);
+}
+section#blogposts {
+    position: absolute;
+    left: 20%;
+    top: 70px;
+    padding: 50px;
+}
+main .post {
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid rgba(83, 78, 58, 0.6);
+    border-radius: 0.5em;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+main .post-title {
+    display: flex;
+    align-items: center;
+    
+}
+button {
+    width: 100px;
+    height: 60px;
+    padding-left: 0px;
+}
+button img {
+    width: 70px;
+    height: 60px;
+    float: left;
+}
+button:hover {
+    cursor: pointer;
+}
+main .post-bio {
+    background-color: rgba(56, 56, 56, 0.95);
+    width: 400px;
+    position: absolute;
+    top:300px;
+    left:250px;
+    display: block;
+    border-radius: 15px;
+}
+main .post-bio h3 {
+    color: white;
+    padding: 10px 20px 0px 20px;
+}
+main .post-bio h4 {
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+main .post-bio p {
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+main .post-bio button {
+    margin:10px 0px 20px 20px;
+}
+
+/* Navigation Bar */
+/* Nevigation */
+#navbar {
+    background-color: transparent;
+}
+.main-menu {
+    font-weight: 400;
+}
+
+.navbar-main button {
+    margin-right: 20px;
+}
+nav {
+    height: 100px;
+    opacity: 0.8;
+    background:rgba(38, 41, 61, 0.7)
+}
+
+.main-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: 1px solid rgba(202, 204, 202, 0.6);
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: rgba(38, 41, 61, 0.7);
+  }
+.main-menu ul li a {
+    text-decoration: none;
+    color:rgb(255, 255, 255); /* Mouse over */
+    font-weight:400;
+}       
+.main-menu ul li a:hover {
+            color:#9ed034; /* Mouse over */
+}
+.main-menu ul li.active {
+            background: #9ed034;
+            border: none; 
+}   
+.main-menu ul li.active a {
+            color: #fff;
+} 
+
+.navbar-main {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.8) !important;
+    width: 60%;
+}
+.navbar-expand-lg {
+    justify-content: flex-end;
+}
